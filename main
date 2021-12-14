@@ -1,0 +1,17 @@
+#Ask the user for a number.
+# Depending on whether the number is even or odd, print out an appropriate message to the user.
+# Hint: how does an even / odd number react differently when divided by 2?
+
+import time
+
+num = int(input("Enter the number: "))
+
+if num%2 :
+    print("This number is odd")
+
+elif num == 0:
+    print("this is a whole number")
+else:
+    print("the number is even")
+
+time.sleep(4)
